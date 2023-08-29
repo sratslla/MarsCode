@@ -1,9 +1,10 @@
-import React from 'react'
+import "./C_Home.css";
+import C_Navbar from "./C_Navbar/C_Navbar";
 
-const C_Home = () => {
+import React from "react";
+
+export default function C_Home() {
   return (
-    <div>C_Home</div>
-  )
+    <C_Navbar />
+  );
 }
-
-export default C_Home

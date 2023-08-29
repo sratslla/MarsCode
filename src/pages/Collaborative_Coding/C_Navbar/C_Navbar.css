@@ -1,0 +1,25 @@
+ul li a {
+    text-decoration: none;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    float: right;
+    margin-top: 0;
+}
+
+li {
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: inherit;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 38px;
+    list-style-position: inside;
+}
