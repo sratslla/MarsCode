@@ -1,3 +1,7 @@
+.navbar {
+    background-color: rgb(0, 134, 201);
+}
+
 ul li a {
     text-decoration: none;
 }
@@ -10,7 +14,7 @@ ul {
 
 li {
     display: inline;
-    color: rgb(255, 255, 255);
+    color: rgb(209, 209, 209);
 }
 
 a {
@@ -21,4 +25,10 @@ a {
     margin-left: 10px;
     margin-right: 38px;
     list-style-position: inside;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 29px;
 }
