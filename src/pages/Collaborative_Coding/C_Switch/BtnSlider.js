@@ -6,9 +6,9 @@ export default function BtnSlider({ direction, moveSlide }) {
     return (
       <button
         onClick={moveSlide}
-        className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
-      >
+        className={direction === "next" ? "btn-slide next" : "btn-slide prev"}>
         <img alt="" src={direction === "next" ? RightArrow : LeftArrow} />
+
       </button>
     );
 }
