@@ -19,7 +19,7 @@ const Navbar = () => {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Practice</a></li>
                     <li><a href="#">Roadmaps</a></li>
-                    <li><a href="" onclick = {loginRoute}>Login</a></li>
+                    <li><a href="" onClick = {loginRoute}>Login</a></li>
                 </ul>
             </header>
         </div>
