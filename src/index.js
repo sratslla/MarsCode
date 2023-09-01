@@ -6,7 +6,7 @@ import Learn from './pages/Learn';
 import Home from './pages/Home';
 import C_Editor from './pages/Collaborative_Coding/C_Editor';
 import C_Home from './pages/Collaborative_Coding/C_Home';
-import Login from './pages/App';
+import Login from './pages/Login';
 import { UserContextProvider } from './context/userContext';
 
 const router = createBrowserRouter([

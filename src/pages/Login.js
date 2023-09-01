@@ -7,7 +7,7 @@ function Login() {
   const { user, loading, error } = useUserContext();
 
   return (
-    <div className="App">
+    <div className="Login">
       {error && <p className="error">{error}</p>}
       {loading ? <h2>Loading...</h2> : <> {user ? <Dashboard /> : <Auth />} </>}
     </div>
