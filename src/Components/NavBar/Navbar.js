@@ -1,8 +1,13 @@
 import React from "react";
 import "./Navbar.css"
 import morselogo from "../../Assets/logo2.png"
+import {useNavigate} from "react-router-dom"
 
 const Navbar = () => {
+    const navigate = useNavigate()
+    const loginRoute = () => {
+        navigate(`/login`)
+    } 
     return(
         <div className="navbar-body"> 
             <header>
@@ -14,7 +19,7 @@ const Navbar = () => {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Practice</a></li>
                     <li><a href="#">Roadmaps</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="" onClick = {loginRoute}>Login</a></li>
                 </ul>
             </header>
         </div>
