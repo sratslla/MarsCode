@@ -15,7 +15,7 @@ Thank you for your interest in contributing to our project! We welcome contribut
 3. **Create a New Branch**: Create a new branch for your work. Use a clear and descriptive branch name that reflects the nature of your changes.
 
    ```bash
-   git checkout -b <your-username>/<name-of-branch>
+   git checkout -b <name-of-branch>
    ```
 
 4. **Make Changes**: Make your desired changes to the codebase. Ensure that your code adheres to our coding standards and conventions.
@@ -29,7 +29,7 @@ Thank you for your interest in contributing to our project! We welcome contribut
 6. **Push to Your Fork**: Push your changes to your forked repository on GitHub:
 
    ```bash
-   git push origin <your-username>/<name-of-branch>
+   git push origin <name-of-branch>
    ```
 
 7. **Open a Pull Request**: Go to the [original repository](https://github.com/sratslla/MorseCode) and click the "New Pull Request" button. Fill out the pull request template with details about your changes.
