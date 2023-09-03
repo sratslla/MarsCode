@@ -1,7 +1,7 @@
-import "./C_Navbar.css";
-import C_Heading from "./C_Heading";
+import "./Navbar.css";
+import Heading from "./Heading";
 
-export default function C_Navbar() {
+export default function Navbar() {
     return (
         <div className="navbar">
             
@@ -15,7 +15,7 @@ export default function C_Navbar() {
                 
             </ul>
             
-            <C_Heading />
+            <Heading />
         </div>
     );
 }
